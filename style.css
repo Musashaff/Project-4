@@ -1,0 +1,53 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color:#0a0c1b;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+#Section1 {
+    color: white;
+    max-width: 400px;
+    background-color: #1c1938;
+    height: 50vh;
+    padding: 20px;
+    flex: 1;
+}
+#Section2 {
+    max-width:200%;
+    height: 300px;
+    flex: 1;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    justify-content:space-around;
+    
+}
+.Insight {
+    color: purple;
+}
+p {
+    margin-top: 10px;
+}
+.the-card {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    margin: 30px;
+}
+li {
+    margin-top: 30px;
+    align-content: space-around;
+}
+img {
+    max-width: 400px;
+    height: 50vh;
+}
